@@ -9,7 +9,7 @@
     "styleguide"
   ],
   "main": "index.js",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Markus Oberlehner",
   "homepage": "https://github.com/modularis/eslint-config-modularis",
   "license": "MIT",
@@ -20,14 +20,16 @@
   "bugs": {
     "url": "https://github.com/modularis/eslint-config-modularis/issues"
   },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^10.0.1"
+  },
   "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-find-rules": "^1.11.1",
-    "eslint-plugin-import": "^1.11.1",
-    "pre-git": "^3.10.0"
+    "eslint": "^3.11.1",
+    "eslint-plugin-import": "^2.2.0",
+    "pre-git": "^3.11.1"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "scripts": {
     "lint": "eslint ."
